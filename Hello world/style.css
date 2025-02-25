@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+#container {
+    text-align: center;
+}
+
+.day-btn {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.day-btn:hover {
+    background: #ffcc00;
+    color: black;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #ffcc00;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+button {
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+li {
+    background: #333;
+    margin: 5px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
